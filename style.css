@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #160beb;
+    text-align: justify;
+    color: white;
+}
+
+ 
+
+.profile-image {
+    width: 200px; 
+    height: 200px; 
+    margin: 30px auto; 
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 250px;
+    }
+
+h1 {
+    margin: 10px 0;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.links {
+    display: flex; 
+    justify-content: space-between; /* Add spacing between the links */
+    gap: 100px; /* Optional: Add spacing between the links */
+    margin: 10px 0; /* Maintain vertical spacing */
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 50; 
+    text-align: center;
+    flex: 1; /* Optional: Make all links the same width */
+}
+
+.links a.github {
+    background: #333;
+}
+
+.links a.cv {
+    background: #333;
+}
+
+.contact-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 2px;
+    font-weight: bold;
+    
+
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0cap;
+    
+}
+
+.contact-form button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    margin-top: 100px;
+    width:auto
+    
+}
+
+.contact-form button:hover {
+    background: #333;
+    
+
+}
